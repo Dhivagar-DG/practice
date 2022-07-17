@@ -1,7 +1,8 @@
-I'm Dhivagar Murugan. This is for learning git.
-
-today i laernt it,
-
-git init,
-git add,
-git commit
+<html>
+    <head>
+        <title>Git</title>
+    </head>
+<body>
+    <h3>Learning Git</h3>
+</body>
+</html>
