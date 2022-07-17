@@ -1,1 +1,7 @@
-I'm Dhivagar Murugan
+I'm Dhivagar Murugan. This is for learning git.
+
+today i laernt it,
+
+git init,
+git add,
+git commit
