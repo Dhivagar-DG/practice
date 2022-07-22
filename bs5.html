@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero</title>
+    <!-- CSS ONLY -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/bs5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="bg-hero text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mt-5">
+                    <h1>Dhivagar Murugan</h1>
+                    <p class="leading">Full stack python web developer</p>
+                </div>
+                <div class="col-sm-8 mt-3">
+                    <div class="card text-dark mt-5 mt-sm-0">
+                        <div class="card-body">
+                            <form action="" method="post" class="" novalidate>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="fullname" class="form-label">Full Name</label>
+                                            <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter your name.." required>
+                                            <div class="invalid-feedback">Please enter your name</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="text" name="email" id="email" class="form-control" placeholder="your_mail@gmail.com" required>
+                                        <div class="invalid-feedback">Please enter your email-id</div>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3 ms-3">
+                                    <label for="learn">Previously What did you learn this channel ?</label>
+                                    <div class="row mt-2">
+                                        <div class="col-sm-6">
+                                            <div class="form-check">
+                                            <input type="checkbox" name="htmlandcss" id="htmlandcss" class="form-check-input"> 
+                                            <label for="htmlandcss" class="form-label">HTML and CSS</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" name="js" id="js" class="form-check-input"> 
+                                                <label for="js" class="form-label">JavaScript</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" name="bs" id="bs" class="form-check-input"> 
+                                                <label for="bs" class="form-label">bootstrap</label>
+                                            </div>
+                                         </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="python" id="python" class="form-check-input">
+                                                <label for="python" class="form-label">Python</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" name="django" id="django" class="form-check-input">
+                                                <label for="django" class="form-label">Django</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" name="sqlandmydsql" id="sqlandmydsql" class="form-check-input">
+                                                <label for="sqlandmydsql" class="form-label">SQl and MySQl</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3 form-group">
+                                    <div class="col-sm-6">
+                                        <label for="subscribe" class="form-label">Did you subscribe to the channel ?</label>
+                                        <div class="form-check">
+                                            <input type="radio" name="subscribe" id="subscribeyes" class="form-check-input" required>
+                                            <label for="subscribeyes" class="form-label">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="subscribe" id="subscribeno" class="form-check-input">
+                                            <label for="subscribeno" class="form-label">No</label>
+                                            <div class="invalid-feedback">Please choose above the one.</div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="year" class="form-label">From which year are you with us?</label>
+                                            <select name="year" id="year" class="form-control" required></select>
+                                            <div class="invalid-feedback">Please select the year.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="req" class="form-label">Do you have any tutorial request ?</label>
+                                            <textarea name="req" id="req" rows="5" class="w-100 p-2 form-control" style="resize:none;" placeholder="Share with us.."></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-sm-6">
+                                        <label for="app" class="form-label">Do you want to create dedicated app for this ?</label>
+                                        <div class="form-check-inline">
+                                            <input type="radio" name="app" id="appyes" class="form-check-input" required>
+                                            <label for="appyes" class="form-label">Yes</label>
+                                            <input type="radio" name="app" id="appno" class="form-check-input ms-2">
+                                            <label for="appno" class="form-label">No</label>
+                                            <input type="radio" name="app" id="appmaybe" class="form-check-input ms-2">
+                                            <label for="appmaybe" class="form-label">Maybe</label>
+                                            <div class="invalid-feedback">Please choose above the one.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-check ms-3">
+                                        <input type="checkbox" name="aggree" id="aggree" class="form-check-input">
+                                        <label for="aggree" class="forml-label">I accept your<a href="" data-bs-toggle="modal" data-bs-target="#modalExample"> Terms and Conditions</a></label>
+                                    </div>
+                                </div>
+                                <div class="d-grid mt-3">
+                                    <button class="btn btn-primary" type="submit" >
+                                        <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>
+                                        Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="modalExample" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Terms and Conditions
+                </div>
+                <div class="modal-body">
+                    <p class="" title="Terms">Terms</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, culpa. Dicta, pariatur quia perferendis, officia voluptate, quae ratione vitae voluptatem iste explicabo neque aut non. Facere impedit officia aut corrupti!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <script>
+        $('#year').html(`<option value=""  selected class="bg-primary">Select Year</option`);
+        for (i=(new Date()).getFullYear() - 10; i<=(new Date()).getFullYear(); i++){
+            $('#year').append(`<option value=${i}>${i}</option`);
+        }
+        $(document).ready(()=>{
+            $('form').submit((event)=>{
+                if( !$('form')[0].checkValidity()){
+                    $('form').addClass('was-validated')
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+            });
+        });
+        
+    </script>
+</body>
+</html>
